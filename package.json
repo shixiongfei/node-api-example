@@ -1,0 +1,32 @@
+{
+  "name": "node-api-example",
+  "version": "1.0.0",
+  "description": "Node-API example",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "install": "node-gyp-build",
+    "test": "node index.js",
+    "prebuild": "prebuildify --napi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shixiongfei/node-api-example.git"
+  },
+  "keywords": [
+    "node-api"
+  ],
+  "author": "shixiongfei",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shixiongfei/node-api-example/issues"
+  },
+  "homepage": "https://github.com/shixiongfei/node-api-example#readme",
+  "devDependencies": {
+    "node-gyp": "^9.3.0",
+    "prebuildify": "^5.0.1"
+  },
+  "dependencies": {
+    "node-gyp-build": "^4.5.0"
+  }
+}
