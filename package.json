@@ -6,8 +6,9 @@
   "private": true,
   "scripts": {
     "install": "node-gyp-build",
-    "test": "node index.js",
-    "prebuild": "prebuildify --napi"
+    "prebuild": "prebuildify --napi",
+    "build:debug": "node-gyp rebuild --debug",
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
